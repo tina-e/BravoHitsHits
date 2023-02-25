@@ -1,5 +1,6 @@
 <?php
 
+require("play_button.php");
 include("get_data.php");
 
 ?>
@@ -31,6 +32,11 @@ foreach($tracks as $track)
     echo "</td>";
     echo "<td class=\"track-cell\">";
     echo $track[$INDEX_TRACKNAME];
+    echo "</td>";
+    echo "<td class=\"player-cell\">";
+    //echo "<div style=\"visibility: hidden\">";
+    echo generate_play_button($test_id);
+    //echo "</div>";
     echo "</td>";
     echo "</tr>";
     $counter++;

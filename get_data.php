@@ -6,6 +6,7 @@ error_reporting(E_ALL);
 $VOLUME = $_GET['volume'];
 $CD = $_GET['cd'];
 
+$INDEX_ID = 0;
 $INDEX_TRACKNAME = 1;
 $INDEX_ARTIST = 2;
 $INDEX_YEAR = 4;
@@ -13,6 +14,7 @@ $INDEX_DISCOGS_URL = 5;
 $INDEX_CD = 6;
 $INDEX_TRACK_ID = 7;
 $INDEX_VOLUME = 8;
+$INDEX_SPOTIFY = 9;
 
 //echo "get data<br><br>";
 

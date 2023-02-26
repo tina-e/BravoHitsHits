@@ -35,7 +35,7 @@ foreach($tracks as $track)
     echo "</td>";
     echo "<td class=\"player-cell\">";
     //echo "<div style=\"visibility: hidden\">";
-    echo generate_play_button($test_id);
+    echo generate_play_button($track[$INDEX_SPOTIFY]);
     //echo "</div>";
     echo "</td>";
     echo "</tr>";
